@@ -1,0 +1,56 @@
+*{
+
+  margin:0 ;
+  padding :0 ;
+  box-sizing: border-box;
+
+}
+
+.home {
+
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  height:100vh ;
+  
+}
+
+.header {
+  
+  width :max-content ;
+  background-color:black ;
+  height :100%;
+  display: flex;
+  flex-direction: column;
+  width :40vw ;
+  align-items: flex-start;
+  justify-content: center;
+  padding:20px ;
+  position: relative;
+}
+
+.mapui,.map-container {
+  width :100% ;
+  height :100vh ;
+}
+
+.search-button {
+  align-self: flex-end;
+}
+
+.logo {
+   
+  align-self: center;
+  color:white;
+  font-size: 3vw;
+  font-weight: bolder;
+  position: absolute;
+  top:10%;
+
+}
+
+@media only screen and (max-width:600px){
+
+  
+
+}
